@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Invoice Tools">
@@ -21,7 +21,9 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            background-attachment: fixed;
             min-height: 100vh;
+            min-height: 100dvh;
             min-height: -webkit-fill-available;
             display: flex;
             flex-direction: column;
@@ -31,6 +33,7 @@
 
         html {
             height: -webkit-fill-available;
+            background: #1a1a2e;
         }
 
         /* Main Menu Styles */
@@ -38,6 +41,7 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
+            min-height: 100dvh;
             min-height: -webkit-fill-available;
         }
 
